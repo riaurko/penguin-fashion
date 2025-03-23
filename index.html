@@ -24,16 +24,69 @@
     </head>
     <body class="font-roboto">
         <header class="bg-[#FFFBF0] p-4">
-            <nav></nav>
+            <nav
+                class="flex items-center justify-between max-w-[98%] lg:max-w-[85%] mx-auto"
+            >
+                <!--? Navbar Start -->
+                <div class="logo flex items-center gap-1">
+                    <img
+                        src="./icons/logo.png"
+                        alt="Logo"
+                        class="w-72 lg:w-96"
+                    />
+                </div>
+                <div class="inline-block lg:hidden">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        class="size-6"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+                        />
+                    </svg>
+                </div>
+                <div class="nav-links hidden lg:inline-block">
+                    <ul class="flex items-center gap-14">
+                        <li>
+                            <a href="#" class="text-[#3C3C3C] font-medium"
+                                >Home</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#3C3C3C] font-medium"
+                                >Product</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#3C3C3C] font-medium"
+                                >About Us</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#" class="text-[#3C3C3C] font-medium"
+                                >Contact Us</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
             <!--? Banner Section Start -->
-            <div class="md:flex md:items-center md:justify-around">
+            <div
+                class="md:flex md:items-center md:justify-around mt-16 space-y-16"
+            >
                 <div>
                     <h1 class="text-7xl uppercase font-bebas-neue">
-                        <span class="text-amber-600">Be the Penguins</span>
+                        <span class="text-[#FABE4C]">Be the Penguins</span>
                         <br />
                         <span class="text-stone-950">of Winter</span>
                     </h1>
-                    <p class="md:my-4">
+                    <p class="my-4">
                         Our online shop offers a cozy collection of high-quality
                         winter clothes, from trendy jackets to soft knitwear and
                         accessories.
@@ -43,7 +96,7 @@
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
+                            fill="white"
                             viewBox="0 0 24 24"
                             stroke-width="1.5"
                             stroke="currentColor"
@@ -59,7 +112,7 @@
                     </button>
                 </div>
                 <div>
-                    <img src="/images/model.png" alt="" />
+                    <img src="/images/model.png" alt="Model" />
                 </div>
             </div>
             <!--? Banner Section End -->
@@ -68,14 +121,18 @@
             <!--? Woman Jacket Section start -->
             <section class="my-12">
                 <h3
-                    class="text-center text-5xl uppercase text-[#363958] font-bebas-neue"
+                    class="text-center lg:text-start text-5xl uppercase text-[#363958] font-bebas-neue"
                 >
                     woman jacket
                 </h3>
                 <!--? Jacket Card Container start -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                >
                     <!--? Jacket Card 1 -->
-                    <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+                    <div
+                        class="p-5 space-y-4 drop-shadow-lg rounded-3xl bg-white shadow-md shadow-gray-50"
+                    >
                         <img
                             class="p-5 rounded-3xl bg-[#F1F1F1]"
                             src="/images/jacket-1.png"
@@ -114,7 +171,9 @@
                         </div>
                     </div>
                     <!--? Jacket Card 2 -->
-                    <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+                    <div
+                        class="p-5 space-y-4 drop-shadow-lg rounded-3xl bg-white shadow-md shadow-gray-50"
+                    >
                         <img
                             class="p-5 rounded-3xl bg-[#F1F1F1]"
                             src="/images/jacket-2.png"
@@ -153,7 +212,9 @@
                         </div>
                     </div>
                     <!--? Jacket Card 3 -->
-                    <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+                    <div
+                        class="p-5 space-y-4 drop-shadow-lg rounded-3xl bg-white shadow-md shadow-gray-50"
+                    >
                         <img
                             class="p-5 rounded-3xl bg-[#F1F1F1]"
                             src="/images/jacket-3.png"
@@ -197,14 +258,18 @@
             <!--? Man Jacket Section Start -->
             <section class="my-12">
                 <h3
-                    class="text-center text-5xl uppercase text-[#363958] font-bebas-neue"
+                    class="text-center lg:text-start text-5xl uppercase text-[#363958] font-bebas-neue"
                 >
                     man jacket
                 </h3>
                 <!--? Jacket Card Container start -->
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                <div
+                    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+                >
                     <!--? Jacket Card 1 -->
-                    <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+                    <div
+                        class="p-5 space-y-4 drop-shadow-lg rounded-3xl bg-white shadow-md shadow-gray-50"
+                    >
                         <img
                             class="p-5 rounded-3xl bg-[#F1F1F1]"
                             src="/images/jacket-4.png"
@@ -222,7 +287,7 @@
                         <div class="flex justify-between">
                             <h2 class="text-[#FABE4C] text-4xl">$234</h2>
                             <button
-                                class="bg-[#85A019] md:mx-4 md:my-4 px-8 py-4 rounded-xl font-medium text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
+                                class="bg-[#85A019] px-8 py-4 rounded-xl font-medium text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]"
                             >
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -243,7 +308,9 @@
                         </div>
                     </div>
                     <!--? Jacket Card 2 -->
-                    <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+                    <div
+                        class="p-5 space-y-4 drop-shadow-lg rounded-3xl bg-white shadow-md shadow-gray-50"
+                    >
                         <img
                             class="p-5 rounded-3xl bg-[#F1F1F1]"
                             src="/images/jacket-5.png"
@@ -282,7 +349,9 @@
                         </div>
                     </div>
                     <!--? Jacket Card 3 -->
-                    <div class="p-5 space-y-4 drop-shadow-lg rounded-3xl">
+                    <div
+                        class="p-5 space-y-4 drop-shadow-lg rounded-3xl bg-white shadow-md shadow-gray-50"
+                    >
                         <img
                             class="p-5 rounded-3xl bg-[#F1F1F1]"
                             src="/images/jacket-6.png"
@@ -323,6 +392,65 @@
                 </div>
             </section>
             <!--? Man jacket Card End -->
+            <!--? Services Section Start -->
+            <section
+                class="services flex flex-col-reverse lg:flex-row justify-between items-center gap-20 max-w-7xl my-32"
+            >
+                <div class="space-y-4">
+                    <div
+                        class="flex flex-col lg:flex-row items-center gap-9 bg-white shadow-md shadow-gray-200 rounded-2xl px-7 py-5"
+                    >
+                        <img src="./icons/house.png" alt="" class="w-20" />
+                        <div class="space-y-4">
+                            <h4
+                                class="text-center lg:text-start text-2xl font-bold"
+                            >
+                                Find the Perfect Fit
+                            </h4>
+                            <p class="text-center lg:text-start">
+                                Everybody is different, which is why we offer
+                                styles for every body.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-col lg:flex-row items-center gap-9 bg-white shadow-md shadow-gray-200 rounded-2xl px-7 py-5"
+                    >
+                        <img src="./icons/box.png" alt="" class="w-20" />
+                        <div class="space-y-4">
+                            <h3
+                                class="text-center lg:text-start text-2xl font-bold"
+                            >
+                                Free Exhanges
+                            </h3>
+                            <p class="text-center lg:text-start">
+                                One of the many reasons you can shop with peace
+                                of mind.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-col lg:flex-row items-center gap-9 bg-white shadow-md shadow-gray-200 rounded-2xl px-7 py-5"
+                    >
+                        <img src="./icons/question.png" alt="" class="w-20" />
+                        <div class="space-y-4">
+                            <h3
+                                class="text-center lg:text-start text-2xl font-bold"
+                            >
+                                Contact Our Seller
+                            </h3>
+                            <p class="text-center lg:text-start">
+                                They are here to help you. That's quite
+                                literally what we pay them for.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-3/5">
+                    <img src="./images/shopping.png" alt="" />
+                </div>
+            </section>
+            <!--? Services Section End -->
         </main>
         <footer></footer>
     </body>
